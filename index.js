@@ -1,5 +1,7 @@
 // Import DC and dependencies
 
-d3 = require("d3");
-crossfilter = require("crossfilter");
-module.exports = require("./dc");
+const d3 = require("d3");
+const crossfilter = require("crossfilter");
+const dc = require("./dc");
+
+module.exports = {dc, d3, crossfilter};
